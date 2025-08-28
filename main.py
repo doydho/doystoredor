@@ -1,4 +1,3 @@
-from keep_alive import keep_alive
 import os
 import logging
 from datetime import datetime
@@ -794,7 +793,7 @@ class MyXLTelegramBot:
 # -------------------- entrypoint --------------------
 def main():
     load_dotenv()
-    keep_alive
+
 
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     api_key = os.getenv("MYXL_API_KEY")
@@ -816,3 +815,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
