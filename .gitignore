@@ -1,0 +1,8 @@
+env
+tokens*
+__pycache__/
+.vscode/
+*.ipynb
+menu.txt
+play*
+api.key
